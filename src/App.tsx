@@ -1,4 +1,4 @@
-import "./App.css";
+import "./reset.css";
 import Result from "./components/Result";
 import Summary from "./components/Summary";
 
