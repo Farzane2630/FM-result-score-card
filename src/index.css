@@ -1,1 +1,14 @@
+@font-face {
+  font-family: Hanken;
+  src: url(../src/assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
 @import "tailwindcss";
+
+@theme {
+  --font-hanken: Hanken, "sans-serif";
+}
+
+.body {
+  background-color: #2e2be9;
+}

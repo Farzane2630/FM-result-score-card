@@ -1,6 +1,6 @@
 const Result = () => {
   return (
-    <section aria-label="result-section" id="result_container" className="bg-[]">
+    <section aria-label="result-section" id="result_container" className="bg-[#2e2be9] font-hanken">
       <p className="result__header">Your Result</p>
 
       <div className="result__circle">
