@@ -1,6 +1,7 @@
 @font-face {
-  font-family: Hanken;
-  src: url(../src/assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+  font-family: "Hanken-Grotesk";
+  src: url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap")
+    format("woff2");
   font-display: swap;
 }
 
