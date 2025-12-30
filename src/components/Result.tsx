@@ -1,11 +1,13 @@
 const Result = () => {
   return (
     <section
-      aria-label="result-section"
-      id="result_container"
-      className="bg-linear-to-b from-[hsl(252,100%,67%)] to-[hsl(241,81%,54%)] font-hanken rounded-2xl p-4 w-screen sm:w-[50%] grid gap-4 justify-items-center pt-8 sm:pt-auto"
+      aria-labelledby="result"
+      className="bg-linear-to-b from-[hsl(252,100%,67%)] to-[hsl(241,81%,54%)] font-hanken rounded-2xl p-4 w-full sm:w-[40%] grid gap-4 justify-items-center pt-8 sm:pt-auto"
     >
-      <p className="result__header text-gray-300 font-bold text-4xl">
+      <p
+        id="result"
+        className="result__header text-gray-300 font-bold text-4xl"
+      >
         Your Result
       </p>
 
