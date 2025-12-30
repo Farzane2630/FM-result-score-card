@@ -119,8 +119,8 @@ const scores: ScoreCardProps[] = [
 
 const Summary = () => {
   return (
-    <section aria-labelledby="summary" className="summary__card">
-      <h1 id="summary">Summary</h1>
+    <section aria-labelledby="summary" className="summary__card h-full bg-white font-hanken rounded-2xl py-2 px-4 sm:px-12 grid gap-4 justify-items-center pt-10 sm:pt-auto">
+      <h1 id="summary" className="text-gray-950 font-bold text-4xl">Summary</h1>
       {scores.map((score) => (
         <ScoreCard key={crypto.randomUUID()} {...score} />
       ))}

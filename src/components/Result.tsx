@@ -2,7 +2,7 @@ const Result = () => {
   return (
     <section
       aria-labelledby="result"
-      className="bg-linear-to-b from-[hsl(252,100%,67%)] to-[hsl(241,81%,54%)] font-hanken rounded-2xl p-4 w-full sm:w-[40%] grid gap-4 justify-items-center pt-8 sm:pt-auto"
+      className="relative z-10 -mb-8 sm:mb-0 sm:-mr-8 box-border bg-linear-to-b from-[hsl(252,100%,67%)] to-[hsl(241,81%,54%)] font-hanken rounded-2xl p-4 grid gap-4 justify-items-center pt-8 sm:pt-auto"
     >
       <p
         id="result"

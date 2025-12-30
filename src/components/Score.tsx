@@ -2,8 +2,8 @@ import type { ScoreCardProps } from "./types/ui";
 
 function ScoreCard({ icon, title, score, backgroundColor, color }: ScoreCardProps) {
   return (
-    <div style={{backgroundColor}} className="score__container p-3 flex justify-between items-center rounded-2xl">
-      <div>
+    <div style={{backgroundColor}} className="score__container p-4 w-full flex justify-between items-center rounded-2xl">
+      <div className="flex justify-start items-center gap-4">
         {icon}
         <p style={{color}} className="score__card__title">{title}</p>
       </div>

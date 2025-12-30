@@ -3,7 +3,7 @@ import Summary from "./components/Summary";
 
 function App() {
   return (
-    <main className="w-screen h-screen flex sm:justify-center justify-start items-center flex-col sm:flex-row -mt-4 sm:mt-auto">
+    <main className="w-full md:w-200 sm:h-fit h-full grid grid-cols-1 sm:grid-cols-2 justify-center items-center -mt-4 sm:mt-0">
       <Result />
       <Summary />
     </main>
