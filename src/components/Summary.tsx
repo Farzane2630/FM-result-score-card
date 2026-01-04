@@ -1,3 +1,4 @@
+import Button from "./Button";
 import ScoreCard from "./Score";
 import type { ScoreCardProps } from "./types/ui";
 
@@ -124,6 +125,7 @@ const Summary = () => {
       {scores.map((score) => (
         <ScoreCard key={crypto.randomUUID()} {...score} />
       ))}
+      <Button title="Continue" />
     </section>
   );
 };
